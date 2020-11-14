@@ -1,5 +1,14 @@
 import json
 
+
+
+# doc_ref = db.collection(u'users').document(u'alovelace')
+# doc_ref.set({
+#     u'first': u'Ada',
+#     u'last': u'Lovelace',
+#     u'born': 1815
+# })
+
 with open("menu.json", "r") as json_file:
     data = json.load(json_file)
     base_url = "https://www.thecheesecakefactory.com"
